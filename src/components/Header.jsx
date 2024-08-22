@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="flex justify-between md:justify-around items-center px-5 py-4 shadow-md bg-white">
+    <header className="flex justify-between md:justify-around z-10 border-b border-[#ebebeb] items-center px-5 py-4 shadow-md bg-white">
       <div className="flex items-center">
         <img
           src="https://zerodha.com/static/images/logo.svg" 
