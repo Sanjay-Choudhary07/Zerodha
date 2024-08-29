@@ -4,7 +4,7 @@ import pressLogo from '../assets/press-logos.png';
 import arrow from '../assets/right-arrow.png';
 const Ecosystem = () =>{
     return(
-        <div className='flex flex-col mt-16 '>
+        <div className='flex flex-col mt-10 '>
         <div className='flex box-border justify-between gap-6 align-middle max-w-full w-[1100px] m-0 mx-auto items-start px-6 py-24 '>
         <div className='flex flex-col w-[59%]'>
         <h1 className='text-4xl text-[#424242] font-semibold gap-2 mb-10'>Trust with confidence</h1>
@@ -30,24 +30,24 @@ const Ecosystem = () =>{
             <div className='flex '>
             <img className='w-full' src={ecosystem} alt='ecosystem'/>
             </div>
-            <div className='flex align-middle gap-12 justify-center'>
-            <div className='flex'>
-             <p>
+            <div className='flex align-middle gap-8 justify-center'>
+            <div className='flex items-center'>
+             <p className='flex text-blue-700 font-normal text-lg'>
              Explore our products
              </p>
-             <img src={arrow} alt="" />
+             <img className='w-5 ml-2 mt-1' src={arrow} alt="" />
             </div>
-            <div className='flex'>
-             <p>
+            <div className='inline-flex items-center'>
+             <p className='flex text-blue-700 font-normal text-lg'>
              Try Kite demo 
              </p>
-             <img src={arrow} alt="" />
+             <img className='w-5 ml-2 mt-1 ' src={arrow} alt="" />
             </div>
             </div>
            </div>
         </div>
-        <div className='flex  flex-col'>    
-         <img className='w-full' src={pressLogo} alt='press-logo'/>
+        <div className=' flex justify-center items-center'>    
+         <img className='w-[45%] -mt-16' src={pressLogo} alt='press-logo'/>
        </div>
        </div>
     )

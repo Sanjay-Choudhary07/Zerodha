@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Landing from '../components/Landing';
 import Ecosystem from '../components/Ecosystem';
 import Pricing from '../components/Pricing';
+import Varsity from '../components/Varsity';
+
 const Home = () =>{
     return(
         <>
@@ -10,6 +12,7 @@ const Home = () =>{
         <Landing/>
         <Ecosystem/>
         <Pricing/>
+        <Varsity/>
         </>
     )
 }

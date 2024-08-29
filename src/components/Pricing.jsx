@@ -2,8 +2,8 @@ import React from 'react';
 
 const Pricing = () =>{
    return(
-    <section className=''>
-        <div className='flex flex-col'>
+    // <section className='flex'>
+        <div className='flex '>
             <div className='flex '>
                <div className='flex flex-col'>
                <h1>Unbeatable pricing</h1>
@@ -31,7 +31,7 @@ const Pricing = () =>{
             See pricing 
             </p>
         </div>
-    </section>
+    // </section>
    )
 } 
 export default Pricing;
