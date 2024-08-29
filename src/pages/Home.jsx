@@ -5,7 +5,7 @@ import Ecosystem from '../components/Ecosystem';
 import Pricing from '../components/Pricing';
 import Varsity from '../components/Varsity';
 import OpenAccount from '../components/OpenAccount';
-
+import Footer from '../components/Footer'
 const Home = () =>{
     return(
         <>
@@ -15,6 +15,7 @@ const Home = () =>{
         <Pricing/>
         <Varsity/>
         <OpenAccount/>
+        <Footer/>
         </>
     )
 }
