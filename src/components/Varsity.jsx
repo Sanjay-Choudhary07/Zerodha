@@ -19,7 +19,7 @@ const Varsity = () => {
       <div className='flex flex-col mt-8'>
        <div>TradingQ&A, the most active trading and investment community in India for all your market related queries.</div>
        <div className='flex items-center'>
-       <p className='mt-7 leading-loose text-[#387ed1] font-medium'>Trending Q&A</p>
+       <p className='mt-7 leading-loose text-[#387ed1] font-medium'>TrendingQ&A</p>
        <img className='w-[20px] ml-2 mt-8' src={rightarrow} alt="" />
        </div>
       </div>
