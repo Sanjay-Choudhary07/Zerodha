@@ -48,7 +48,7 @@ const Pricing = () => {
                 </div>
             </div>
              <div className='flex w-[1100px] text-[#387ed1] -mt-32 ml-60'>
-                <p className='flex font-[16px] -ml-1 font-semibold'>
+                <p className='flex -ml-1 font-semibold'>
                     See pricing
                 </p>
                 <img className='w-[25px] ml-2' src={rightarrow} alt="right-arrow-icon" />
