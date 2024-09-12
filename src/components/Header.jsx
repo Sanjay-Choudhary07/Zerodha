@@ -14,7 +14,7 @@ function Header() {
       <nav className=" hidden md:flex items-center space-x-9">
         <ul className="flex font-normal space-x-6 gap-3 text-[#666]">
          <li>
-           <a href="#signup" className="hover:text-blue-500">
+           <a href="#signup" className=" hover:text-blue-500">
              Signup
            </a>
          </li>
